@@ -1,0 +1,6 @@
+.idea/
+.nbproject/
+error/
+stats/
+api/config.php
+Credentials.txt

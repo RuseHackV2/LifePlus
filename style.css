@@ -1,0 +1,503 @@
+body {
+
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+
+    color: #1e3948;
+
+    background-color: #f5f8fa;
+
+}
+
+
+
+header {
+
+    background-color: #F8F8F8;
+
+    background-image: url('images/body-bg.png');
+
+    background-size: cover;
+
+}
+
+
+
+ul.no-style {
+
+    list-style: none;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+
+
+a {
+
+    color: #21b547;
+
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+
+    font-weight: bold;
+
+}
+
+
+
+p {
+
+    margin: 0 0 11px;
+
+}
+
+
+
+/* Navigation */
+
+.navbar-default {
+
+    background-color: #f8f8f8;
+
+    border-color: #e7e7e7;
+
+    border-bottom: 3px solid #777777;
+
+    border-top: 1px solid #777777;
+
+}
+
+
+
+a.navbar-brand {
+
+    position: relative;
+
+    z-index: 100;
+
+}
+
+
+
+a.top-ava {
+
+    padding: 6px !important;
+
+}
+
+
+
+img.user-ava {
+
+    height: 35px;
+
+    width: 35px;
+
+}
+
+
+
+.user-ava {
+
+    border-radius: 50%;
+
+}
+
+
+
+.notif-icon:before {
+
+    content: "\EA2E";
+
+}
+
+
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover,
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover,
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+
+    color: #F5F8FA;
+
+    text-decoration: none;
+
+    background-color: #70C386;
+
+}
+
+
+
+/* Search Bar */
+
+button.search {
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffe800+0,ff8600+100 */
+
+    background: #ffe800; /* Old browsers */
+
+    background: -moz-linear-gradient(-45deg, #ffe800 0%, #ff8600 100%); /* FF3.6+ */
+
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ffe800), color-stop(100%, #ff8600)); /* Chrome,Safari4+ */
+
+    background: -webkit-linear-gradient(-45deg, #ffe800 0%, #ff8600 100%); /* Chrome10+,Safari5.1+ */
+
+    background: -o-linear-gradient(-45deg, #ffe800 0%, #ff8600 100%); /* Opera 11.10+ */
+
+    background: -ms-linear-gradient(-45deg, #ffe800 0%, #ff8600 100%); /* IE10+ */
+
+    background: linear-gradient(135deg, #ffe800 0%, #ff8600 100%); /* W3C */
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe800', endColorstr='#ff8600', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+
+
+/* Sidebar Widgets */
+
+.side-widget {
+
+    margin-bottom: 22px;
+
+    background-color: #ffffff;
+
+    border: 1px solid transparent;
+
+    border-radius: 4px;
+
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+
+}
+
+
+
+.gr-border {
+
+    border: 1px solid transparent;
+
+    border-color: #d3e0e9;
+
+}
+
+
+
+.widget {
+
+    margin-bottom: 30px !important;
+
+}
+
+
+
+.ava-bg {
+
+    height: 150px;
+
+    background-size: cover;
+
+    /* BG img is set in the html so it can be set by user */
+
+}
+
+
+
+.user-info-box .user-avatar {
+
+    max-width: 100px;
+
+    margin-top: -70px;
+
+    margin-bottom: 5px;
+
+    border: 3px solid #fff;
+
+    border-radius: 100%;
+
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+.user-info-box {
+
+    padding: 15px;
+
+    text-align: center;
+
+}
+
+
+
+.user-meter {
+
+    list-style: none;
+
+    padding: 0;
+
+}
+
+
+
+.meter-value {
+
+    display: inline-block;
+
+    padding: 0 10px;
+
+    border-right: 1px solid #d4dbe0;
+
+}
+
+
+
+.meter-value:last-of-type {
+
+    border-right: 0;
+
+}
+
+
+
+.about-box {
+
+    padding: 15px;
+
+}
+
+
+
+.info-list {
+
+    padding-left: 0;
+
+    list-style: none;
+
+}
+
+
+
+h5.user-name {
+
+    margin-bottom: 5px;
+
+}
+
+
+
+h5.user-name a {
+
+    font-weight: bold;
+
+}
+
+
+
+/* Article */
+
+article.feed-entry {
+
+    background: white;
+
+    padding: 20px;
+
+    margin-bottom: 30px;
+
+}
+
+
+
+article img.article-img {
+
+    border-radius: 50%;
+
+    width: 150px;
+
+    height: 150px;
+
+}
+
+
+
+article p.article-tips {
+
+    width: 100%;
+
+}
+
+
+
+article a.article-img,
+
+article .article-body {
+
+    display: table-cell;
+
+    vertical-align: top;
+
+}
+
+
+
+article a.article-img {
+
+    padding-right: 10px;
+
+}
+
+
+
+article .loc-info .fa {
+
+    margin-right: 5px;
+
+}
+
+
+
+article .title {
+
+    margin-top: 0;
+
+    margin-bottom: 5px;
+
+}
+
+
+
+article .time-stamp {
+
+    float: right;
+
+}
+
+small.time-stamp.status-open,
+small.time-stamp.status-close {
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+small.time-stamp.status-open {
+    background: #44BB63;
+}
+small.time-stamp.status-close {
+    background: #CB0000;
+}
+
+
+/* Listing */
+
+#listing article a.article-img {
+
+    padding-top: 10px;
+
+}
+
+
+
+#listing article img.article-img {
+
+    width: 90px;
+
+    height: 90px;
+
+}
+
+
+
+#listing article {
+
+    padding: 5px 10px;
+
+    margin-bottom: 5px;
+
+}
+
+
+
+/* LANDING PAGE CSS */
+
+.homepage-logo {
+
+    padding-top: 50px;
+
+}
+
+
+
+.search-bar.landing {
+
+    text-align: center;
+
+    padding: 20px;
+
+}
+
+
+
+/* MOBILE */
+
+
+
+@media (min-width: 768px) {
+
+    .main-menu {
+
+        float: right !important;
+
+        margin-right: -15px;
+
+    }
+
+
+
+    .main-menu .dropdown-menu {
+
+        left: auto;
+
+        right: 0;
+
+    }
+
+
+
+    .main-menu .od {
+
+        left: 0;
+
+        right: auto;
+
+    }
+
+
+
+    .navbar-nav:first-of-type {
+
+        float: left;
+
+        margin-left: 130px;
+
+    }
+
+}
+
+#map.google-map {
+	width: 100%;
+	max-width: 100%;
+}
+
+div.article-body {
+    width: 100%;
+}
